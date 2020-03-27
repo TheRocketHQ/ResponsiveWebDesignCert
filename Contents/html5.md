@@ -45,10 +45,10 @@ To add image
 
 Notes:
 
--   img elements are self-closing.
--   All img elements must have an alt attribute.
--   Alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
--   If the image is purely decorative, using an empty alt attribute is a best practice.
+- img elements are self-closing.
+- All img elements must have an alt attribute.
+- Alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+- If the image is purely decorative, using an empty alt attribute is a best practice.
 
 ## Link to External Pages with Anchor Elements
 
@@ -155,8 +155,8 @@ Inputs are self closing
 
 ## Create a Set of Radio Buttons
 
--   Same Name - All related radio buttons should have the same name attribute to create a radio button group.
--   For Label - It is considered best practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the child input element.
+- Same Name - All related radio buttons should have the same name attribute to create a radio button group.
+- For Label - It is considered best practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the child input element.
 
 ```html
 <label for="indoor">
